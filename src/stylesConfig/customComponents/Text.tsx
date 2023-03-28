@@ -7,19 +7,16 @@ export const TextStyle = {
   sizes: {},
   // styles for different visual variants ("outline", "solid")
   variants: {
-    mainText: {
-      fontSize: "15px",
-      fontWeight: "300",
-      lineHeight: "19px",
-    },
-    lightText: {
-      fontSize: "13px",
-      fontWeight: "300",
-      lineHeight: "17px",
+    body1: {
+      fontSize: ["8px", "16px"],
+      fontWeight: "500",
+      lineHeight: ["16px", "26px"],
+      color: "#E7E7E7",
+      textTransform: "capitalize",
     },
   },
   // default values for `size` and `variant`
   defaultProps: {
-    variant: "primary",
+    variant: "body1",
   },
 };

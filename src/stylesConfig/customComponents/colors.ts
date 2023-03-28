@@ -1,8 +1,7 @@
 export const colors = {
-  btnBgColor: "#fc4747",
-  mainBgColor: "#10141e",
-  pryTextColor: "#161d2f",
-  secBgColor: "#161d2f",
-  secColor: "#5a698f",
+  pryColor: "#004DB3",
+  mainBgColor: "#F8F9FC",
+  textColor: "#A1A1A1",
   white: "#ffffff",
+  dark: "#000F24",
 };

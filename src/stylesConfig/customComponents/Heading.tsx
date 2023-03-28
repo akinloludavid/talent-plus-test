@@ -8,21 +8,21 @@ export const HeadingStyle = {
   // styles for different visual variants ("outline", "solid")
   variants: {
     h1: {
-      fontSize: "32px",
-      fontWeight: "300",
-      lineHeight: "40px",
+      fontSize: "64px",
+      fontWeight: "700",
+      lineHeight: "82px",
       color: "#ffffff",
     },
     h2: {
-      fontSize: "24px",
-      fontWeight: "300",
-      lineHeight: "30px",
-      color: "#ffffff",
+      fontSize: ["24px", "56px"],
+      fontWeight: "700",
+      lineHeight: ["30px", "70px"],
+      color: "#000000",
     },
     h3: {
-      fontSize: "24px",
-      fontWeight: "500",
-      lineHeight: "30px",
+      fontSize: ["8px", "8px", "24px"],
+      fontWeight: ["600", "500"],
+      lineHeight: ["10px", "10px", "30px"],
       color: "#ffffff",
     },
     h4: {
@@ -30,6 +30,12 @@ export const HeadingStyle = {
       fontWeight: "500",
       lineHeight: "23px",
       color: "#ffffff",
+    },
+    h5: {
+      fontSize: "16px",
+      fontWeight: "700",
+      lineHeight: ["8px", "8px", "21.6px"],
+      color: "#000000",
     },
   },
   // default values for `size` and `variant`
