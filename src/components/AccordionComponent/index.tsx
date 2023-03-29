@@ -39,14 +39,14 @@ const AccordionComponent = ({ lists }: { lists: any[] }) => {
                   <FaPlus color="#000F24" />
                 )}
               </AccordionButton>
-              <AccordionPanel
-                pb={4}
-                fontSize={["8px", "16px"]}
-                fontWeight={["500", "600"]}
-                textColor="textColor"
-                mt="16px"
-              >
-                {el.answer}
+              <AccordionPanel pb={4} mt="16px">
+                <Text
+                  fontSize={["8px", "16px"]}
+                  fontWeight={["500", "600"]}
+                  color="textColor"
+                >
+                  {el.answer}
+                </Text>
               </AccordionPanel>
             </>
           )}
